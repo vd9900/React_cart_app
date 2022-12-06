@@ -1,26 +1,27 @@
-.home{
-    display: flex;
-
+.home {
+  display: flex;
 }
-.product{
-    width:78%;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+.product {
+  width: 78%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-.filter{
-    width:20%;
-    height: 86vh;
-    background-color: rgb(44, 44, 44);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    margin: 10px;
-
+.filter {
+  width: 20%;
+  height: 86vh;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 10px;
 }
-.filter >span{
-    padding-bottom: 20px;
+.filter > span {
+  padding-bottom: 20px;
+}
+.products {
+  width: 300px;
+  margin: 10px;
 }

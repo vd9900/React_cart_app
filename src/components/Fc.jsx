@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import Rating from "../components/rating";
 
 const FC = () => {
-  const [rate, setRate] = useState(5)
+  const [rate, setRate] = useState(0);
   return (
     <div className="filter">
       <span className="title fs-3">Filter here</span>
@@ -25,10 +25,10 @@ const FC = () => {
         />
       </span>
       <span>
-        <label style={{paddingRight:10}}>Rating:</label>
-        <Rating rating={rate} style={{cursor:pointer}}/>
-        </span>
-      <Button variant="light">Clear Filters</Button>
+        <label style={{ paddingRight: 10 }}>Rating:</label>
+        <Rating rating={rate} onClick={(i)=>setRate(i)} />
+      </span>
+      <Button variant="light" onClick={()=>setRate(0)}>Clear Filters</Button>
     </div>
   );
 };
