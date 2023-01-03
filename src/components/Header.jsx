@@ -22,7 +22,7 @@ function Header() {
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <span className="p-3">Empty  bit  hknow</span>
+            <span className="p-3">Empty now</span>
           </Dropdown.Menu>
         </Dropdown>
       </Container>
