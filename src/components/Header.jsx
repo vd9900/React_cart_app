@@ -9,7 +9,7 @@ function Header() {
     <Navbar bg="dark">
       <Container>
         <Navbar className="brand">
-          <a href="/">My cnkjhkk j</a>
+          <a href="/">My cnkjhk</a>
         </Navbar>
         <Form.Control
           style={{ width: "30rem" }}
